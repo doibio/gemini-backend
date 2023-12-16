@@ -10,7 +10,7 @@ parameters = {
     "top_p": 0.8,
     "top_k": 40
 }
-model = TextGenerationModel.from_pretrained("text-bison")
+model = TextGenerationModel.from_pretrained("gemini-pro")
 response = model.predict(
     """what is the immune system?""",
     **parameters
